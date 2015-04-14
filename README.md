@@ -21,3 +21,10 @@ notify --title "Dependencies updated." --subtitle "You can now commit and push t
 - `-t|--title`: Notification title 
 - `-s|--subtitle`: Notification subtitle
 - `-b|--body`: Notification body
+
+### Use cases
+Imagine we're updating our repository dependencies with a slow internet connection or from a VCS, we can run the following command
+```bash
+composer update && notify -t "Composer has finished."
+```
+to get notified as soon as Composer has finished.
