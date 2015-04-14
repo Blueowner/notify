@@ -12,7 +12,7 @@ From the repository directory:
 ```bash
 ./notify.sh --title "Dependencies updated." --subtitle "You can now commit and push to GitHub." --body "'composer update' has finished."
 ```
-From anywhere if you've created the symlink:
+From anywhere, if you've created the symlink:
 ```bash
 notify --title "Dependencies updated." --subtitle "You can now commit and push to GitHub." --body "'composer update' has finished."
 ```
